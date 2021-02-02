@@ -7,7 +7,9 @@ int main(int argc, char const *argv[])
 
     printf("Sisesta number:\n");
     scanf("%d", &num);
+
     num == 0 ? printf("hea nali\n"), exit(1) : 0;
+
     printf("Number %s\n", num % 3 == 0 ? num % 5 == 0 ? "jagub 3 ja 5ga" : \
     "jagub 3ga" : num % 5 == 0 ? "jagub 5ga" :"ei jagu 3e ega 5ga");
 
